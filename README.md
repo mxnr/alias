@@ -1,1 +1,21 @@
-# alias
+# Alias list
+
+```shell
+alias c='composer'
+alias csu='composer self-update'
+alias cu='composer update'
+alias ci='composer install'
+
+alias phpu='phpunit -c app/'
+alias gpl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
+alias gps='git push origin $(git rev-parse --abbrev-ref HEAD)'
+alias gc='git commit -am'
+alias gs='git status'
+alias gb='git branch'
+alias gch='git checkout'
+alias gm='git merge'
+alias gd='git diff'
+alias gr='git reset'
+alias psr='php app/console server:run'
+alias grh='gr --hard HEAD'
+```
